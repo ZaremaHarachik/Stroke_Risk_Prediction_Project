@@ -1,9 +1,9 @@
-# Stroke Prediction using Machine Learning
+# Stroke risk prediction using Machine Learning
 
-## Project Overview
+## Project overview
 This project predicts the likelihood of a person having a stroke based on health-related factors such as age, hypertension, heart disease, BMI, and smoking status. The goal was to build and evaluate different machine learning models to identify which performs best on imbalanced medical data.
 
-## What I Did
+## What I did
 - Loaded and cleaned the stroke dataset from Kaggle.  
 - Handled missing values and encoded categorical features.  
 - Scaled numerical features.  
@@ -13,7 +13,7 @@ This project predicts the likelihood of a person having a stroke based on health
   - **Naive Bayes** – Accuracy: 0.32, F1 Score: 0.12  
 - Selected **Logistic Regression** as the best model due to superior F1 score and better handling of the imbalanced dataset.  
 
-## What I Learned
+## What I learned
 - Data cleaning and preprocessing techniques.  
 - Training, evaluating, and comparing multiple machine learning models.  
 - Interpreting metrics such as accuracy and F1 score to make informed model selection.  
